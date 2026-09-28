@@ -35,7 +35,7 @@ Discount Effectiveness: Are higher discounts actually translating into stronger 
 Customer Satisfaction: How do customer ratings compare among top selling products?
 
 
-Goal: To create an effective tool that helps analyze business from products, categories, regions, and customers to gain business insights.
+Goal: To create an effective tool that helps to gain business insights from products, categories, regions, and customers.
 
 
 ***Key Findings***
@@ -61,11 +61,23 @@ This suggests an opportunity to test whether lower discounts could increase reve
 **Regional Performance:**
 
 
-The Middle East and North American regions had the highest revenue out of the four. Interestingly, the Middle East had generated $16k less revenue than North America in 2022, however in 2023 the revenue was $40k more than North America. The number of orders and units bought within each category were nearly identical.....
+The Middle East and North America regions were the two highest revenue regions in the dataset. In 2022 North America generated approximately 16k more revenue than the Middle East, however in 2023 the Middle East generated approximately 40k more. To investigate the difference, I compared the revenue per order and revenue per unit sold. Both regions had nearly identical revenue per unit at approximately $220 in both years. The revenue per order had similar results with North America at $662.11 versus the Middle East's $661.15 in 2022. In 2023, North America had $660.45 and the Middle East had $666.62 revenue per unit. 
+
+With similar order and unit sales, the difference in total revenue appears to be more closely related to the number of unit sales itself, rather than the difference in average revenue per unit or order. Using comparative metrics, I was able to investigate the unexpected change in regional performance.
 
 **Discount Effectiveness:**
 
+
+Products with discounted ranges of 1-10% or 11-20% generated the most revenue and number of sales in comparison to products with no discounts or discounts above 21%. This suggests that moderate discounts were associated with stronger sales performance in the dataset, while higher discounts did not correspond to higher sales or revenue. This pattern was consistent across all categories, regions, and years, which suggests that discount level is an important factor to investigate when evaluating sales performance. 
+
+Average product ratings were very close across all discount ranges, ranging from 2.90 to 3.05, suggesting customer ratings did not meaningfully distinguish between the discount groups.  
+
 **Customer Satisfaction:**
+
+
+While ratings did not provide significant distinction between discount groups, they determined possible potential with individual products. Analysis showed that there were some high volume products with averages of 3.0 and higher ratings with substantial discounts. While discounts may have contributed to increased sales, they also reduce revenue generated per unit sold. As a result, products could have a high number of reviews and sell a lot of units, while still generating less total revenue than products with lower sales performance but higher revenue per unit. 
+
+A business consideration would be to reflect on products with a combination of high ratings, strong sales volume, and high discount percentages. Warranting review, these products may be demonstrating how their level of discounting could be limiting revenue potential. Reviewing these products could help determine if discounts could be optimized while maintaining sales volume and customer demand. 
 
 **6. Key Visuals**
 * KPIs (LEFT): Shows Amazon's total $32.87M in Revenue along with cards displaying the Top Selling Category, Region with Most Revenue, and Most Profitable Month. 
